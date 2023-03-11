@@ -42,6 +42,7 @@ const cart_reducer = (state, action) => {
     return{...state,cart:tempCart}
   }
   if(action.type === CLEAR_CART){
+    
     return {...state,cart:[]}
   }
   if (action.type === TOGGLE_CART_ITEM_AMOUNT){

@@ -20,9 +20,9 @@ const CartTotals = () => {
           </h4>
         </h5>
       </article>
-      {myUser ?  <Link to='/checkout' className='btn'>
+        <Link to='/checkout' className='btn'>
         proceed to checkout
-      </Link> : <button type='button' className='btn' onClick={loginWithRedirect}>login</button>}
+      </Link> 
      
     </div>
   </Wrapper>
